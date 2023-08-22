@@ -24,8 +24,25 @@ const userColor = prompt('type your favorite color');
 console.log(userColor);
 
 const userAge = prompt('type your Age'); 
-console.log(userAge);
+console.log(Number(userAge));
 
-document.getElementById('nome').innerHTML = 'ciao ' + userFirstName + userLastName + userColor + userAge;
+const costante = 100;
 
-console.log(userFirstName + userLastName + userColor + userAge);
+var somma = costante + (Number(userAge))
+console.log(Number(somma));
+
+/* 
+var somma = costante - Number(userAge)
+console.log(Number(somma));
+
+var somma = costante / Number(userAge) 
+console.log(Number(somma));
+
+var somma = costante * Number(userAge)
+console.log(Number(somma)); 
+*/
+
+
+document.getElementById('nome').innerHTML = 'ciao ' + userFirstName + userLastName + userColor + somma;
+
+console.log(userFirstName + userLastName + userColor + somma);
