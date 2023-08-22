@@ -26,23 +26,25 @@ console.log(userColor);
 const userAge = prompt('type your Age'); 
 console.log(Number(userAge));
 
-const costante = 100;
-
-var somma = costante + (Number(userAge))
-console.log(Number(somma));
+const costante = prompt('type numbers'); 
+console.log(Number(costante));
 
 /* 
-var somma = costante - Number(userAge)
+var somma = (Number(costante)) + (Number(userAge))
 console.log(Number(somma));
 
-var somma = costante / Number(userAge) 
+
+var somma =  (Number(costante)) - (Number(userAge))
 console.log(Number(somma));
 
-var somma = costante * Number(userAge)
-console.log(Number(somma)); 
+var somma =  (Number(costante)) / (Number(userAge))
+console.log(Number(somma));
 */
 
+var somma = (Number(costante)) * (Number(userAge))
+console.log(Number(somma)); 
 
-document.getElementById('nome').innerHTML = 'ciao ' + userFirstName + userLastName + userColor + somma;
+
+document.getElementById('nome').innerHTML = 'ciao ' + userFirstName + userLastName + userColor + somma + '!';
 
 console.log(userFirstName + userLastName + userColor + somma);
