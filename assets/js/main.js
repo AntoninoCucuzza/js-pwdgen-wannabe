@@ -12,3 +12,20 @@ prompt per
 
 */
 
+console.log('Hello, world!');
+
+const userFirstName = prompt('type your first name'); 
+console.log(userFirstName);
+
+const userLastName = prompt('type your last name'); 
+console.log(userLastName);
+
+const userColor = prompt('type your favorite color'); 
+console.log(userColor);
+
+const userAge = prompt('type your Age'); 
+console.log(userAge);
+
+document.getElementById('nome').innerHTML = 'ciao ' + userFirstName + userLastName + userColor + userAge;
+
+console.log(userFirstName + userLastName + userColor + userAge);
